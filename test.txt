@@ -1,8 +1,159 @@
-this is test document
-andthtidj
-this is test document
-andthtidj
-this is test document
-andthtidj
-this is test document
-andthtidj
+Friend@DESKTOP-AP95OBA MINGW64 ~
+$ cd /d
+
+Friend@DESKTOP-AP95OBA MINGW64 /d
+$ ls
+CentOS_BuildTag  EULA  images/    LiveOS/    repodata/             RPM-GPG-KEY-CentOS-Testing-7
+EFI/             GPL   isolinux/  Packages/  RPM-GPG-KEY-CentOS-7  TRANS.TBL
+
+Friend@DESKTOP-AP95OBA MINGW64 /d
+$ cd
+
+Friend@DESKTOP-AP95OBA MINGW64 ~
+$ cd /H
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$ ls
+'$RECYCLE.BIN'/   Greenplum/          PG/                  python-3.6.4.exe*
+ envs/            Greenplum.txt       pyhton_new_script/   Python36-32/
+ get-pip.py*      Images/             python/             'System Volume Information'/
+ Gireesh/         Java_Scipt/         Python_codes/        tourplan.txt
+ girigit/         Javascript_files/   Python_Practice/     TourPlan.xls
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$ cd /girigit
+bash: cd: /girigit: No such file or directory
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H
+$ cd girigit/
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ ls
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ git config --global user.name "502737737"
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ git config --global user.email gireeshsang@gmail.com
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ git clone tr_balaga_gireeshh/README.md
+fatal: repository 'tr_balaga_gireeshh/README.md' does not exist
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ git clone https://github.com/502737737/tr_balaga_gireeshh.git
+Cloning into 'tr_balaga_gireeshh'...
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ ls
+tr_balaga_gireeshh/
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit
+$ cd tr_balaga_gireeshh/
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ ls
+README.md  test.txt.txt
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ ls
+README.md  test.txt
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git add test.txt
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git commit -m "this first edit in test' test.txt
+> ^C
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git commit -m "this is first edit test" test.txt
+[master a918da4] this is first edit test
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test.txt
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/502737737/tr_balaga_gireeshh.git
+   b293342..a918da4  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git commit -m "this is second edit in test" test.txt
+[master c9ab720] this is second edit in test
+ 1 file changed, 6 insertions(+)
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 158.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/502737737/tr_balaga_gireeshh.git
+   a918da4..c9ab720  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Friend@DESKTOP-AP95OBA MINGW64 /H/girigit/tr_balaga_gireeshh (master)
